@@ -11,6 +11,8 @@
 - **인터페이스 기반 상호작용:** `IItemInterface`로 아이템 공통 동작을 추상화하여 유지보수성 및 확장성 확보
 
 - **드래그 앤 드롭:** `NativeDrop`을 오버라이드하여 아이템 이동 및 외부 드롭 로직 처리
+[[code1]](https://github.com/yoonjiii218/Dungeon/blob/main/UI/FPSMainMenu.cpp#L20)
+[[code2]](https://github.com/yoonjiii218/Dungeon/blob/main/InventorySystem/QuickSlot/FPSQuickSlotWidget.cpp#L40)
 
 - **슬롯 로직:** 모듈러 연산(`%`)을 이용한 슬롯 인덱스 제어
 [[code]](https://github.com/yoonjiii218/Dungeon/blob/main/UI/FPSMainUI.cpp#L41)
@@ -19,4 +21,5 @@
 - **Behavior Tree 상태 관리:** 직관적이고 확장성 있는 행동 패턴 구현
 
 - **정밀한 공격 판정:**  `AnimMontage`와 `AnimNotify`를 이용하여 애니메이션과 공격 판정 타이밍의 불일치 문제 해결
+[[code]](https://github.com/yoonjiii218/Dungeon/blob/main/Enemy/EnemyAnimInstance.cpp#L10)
 
